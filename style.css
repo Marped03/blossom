@@ -97,6 +97,7 @@ align-items: center;
   .links{padding-top: 30px;
     text-decoration: none;
     list-style: none;
+    width: 300px;
     
 }
 a{text-decoration: none;
