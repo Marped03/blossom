@@ -212,6 +212,7 @@ gap: 40px;
 .links{
     text-decoration: none;
     list-style: none;
+    width: 300px;
 }
     
 }
