@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <script src="https://kit.fontawesome.com/cb55c9637a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="landing-page">
+   <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html"><img src="billeder/blossom..png"></a></div>
+            <ul class="links">
+                <li><a href="om.html">Produkter</a></li>
+                <li><a href="kontakt.html">Services</a></li>
+                <li><a href="galleri.html">Kursus</a></li>
+                <li><a href="login.html">Kontakt</a></li>
+                <li><a href="login.html">Om os</a></li>
+            </ul>
+            <a href="#" class="action-btn">Les mere</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu open">
+            <li><a href="om.html">Produkter</a></li>
+            <li><a href="kontakt.html">Services</a></li>
+            <li><a href="galleri.html">Kursus</a></li>
+            <li><a href="login.html">Kontakt</a></li>
+            <li><a href="login.html">Om os</a></li>
+            <li><a href="#" class="action-btn">Les mere</a>
+        </div>
+   </header> 
+    <section class="section-1">
+        <img src="billeder/flower-1.png" alt="blomst" class="flower">
+        <img src="billeder/title.png" alt="blossom balon tekst">
+        <h1>Blossom your self</h1>
+        <img src="billeder/flowers-2.png" alt="blomster" class="flower">
+    </section>
+    </div>
+   <main>
+        <section class="section-2">
+            <h2>Who are we?</h2>
+            <img src="billeder/Infografik.png" alt="infografik">
+            <div class="tekst">
+            <h3>På overfladen er vi et innovativt multimediedesignfirma.</h3>
+            <h3>Vi er også en platform, der tilbyder uddannelsesseminarer og kurser til dem, der ønsker at arbejde i branchen</h3>
+            <h3>Vores primære mål er at skabe et støttende netværksfællesskab for kvinder inden for den kreative industri, fremme empowerment og samarbejde</h3>
+            </div>
+        </section>
+     
+        <section class="section-3">
+            <img src="billeder/wave-2.png" alt="wave-2">
+            <div class="animation-video">
+                <video width="1280" max-height="720" controls>
+                <source src="movie.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>   
+   </main>
+    
+   <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+        
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+
+</body>
+</html>
