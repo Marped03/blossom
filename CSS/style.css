@@ -269,6 +269,9 @@ header {
     height: auto;
     margin: 1rem;
   }
+  .container-cases h2 {
+    margin-left: 14vw;
+  }
 }
 @media (max-width: 576px) {
   .dropdown_menu {
