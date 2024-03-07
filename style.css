@@ -80,7 +80,7 @@ input[type=text], select, textarea {
   
 
   input[type=submit]:hover {
-    background-color: #56B487;
+    background-color: #5b565b;
   }
   
 
@@ -98,7 +98,7 @@ margin-top: 20px;}
     padding-right: 50px;
     width: 300px;
    }
-  .footer{ display: flex;
+  footer{ display: flex;
     flex-direction: column;
 align-items: center;
     padding: 40px;
@@ -233,7 +233,7 @@ margin-top: 30px;}
     width: 150px;
     height: 50px;
        }
-.footer{display: flex;
+footer{display: flex;
     justify-content: center;
 padding: 40px;
 gap: 40px;
@@ -371,7 +371,7 @@ margin-top: 30px;}
     width: 200px;
     height: 50px;
        }
-.footer{display: flex;
+footer{display: flex;
     justify-content: center;
     gap: 30px;
 padding: 40px;
