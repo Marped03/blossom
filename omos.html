@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>om os</title>
+    <script src="https://kit.fontawesome.com/cb55c9637a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header> 
+
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="billeder/blossom..png"></a></div>
+        <ul class="links">
+            <li><a href="om.html">Produkter</a></li>
+            <li><a href="kontakt.html">Services</a></li>
+            <li><a href="galleri.html">Kursus</a></li>
+            <li><a href="login.html">Kontakt</a></li>
+            <li><a href="login.html">Om os</a></li>
+        </ul>
+        
+        <a href="#" class="action-btn">Læs mere</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="dropdown_menu open">
+        <li><a href="om.html">Produkter</a></li>
+        <li><a href="kontakt.html">Services</a></li>
+        <li><a href="galleri.html">Kursus</a></li>
+        <li><a href="login.html">Kontakt</a></li>
+        <li><a href="login.html">Om os</a></li>
+        <li><a href="#" class="action-btn">Læs mere</a>
+    </div>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+        
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+
+</header>
+
+<a href="https://ibb.co/xJ7dqyx"><img id="omostred" src="https://i.ibb.co/vZjR4b0/omosheader.png" alt="om os"></a>
+
+<body>
+    <section id="omosbody">
+    <section id="portrætter">
+    <a href="https://ibb.co/cQw9fx8"><img src="https://i.ibb.co/njBydR1/portrait.png" alt="portræt"></a>
+    <a href="https://ibb.co/FBgJTZp"><img src="https://i.ibb.co/7G2VmMh/portrait-04.png" alt="portræt 2"></a>
+    <a href="https://ibb.co/mc6Sykr"><img src="https://i.ibb.co/sVyt1np/portrait-06.png" alt="portræt 3"></a>
+    </section>
+    
+    <h2>Hvem er vi?</h2>
+    <p>Blossom blev grundlagt af tre passionerede kvinder i en mande-domineret branche med en vision om at skabe et safespace og fremhæve kvinders kreativitet. Vores unikke færdigheder i 3D-design og inspiration fra det feminine perspektiv er hjørnestenen i vores tilgang til design og empowerment. Vores personlige rejser har formet Blossoms værdier med fokus på ligestilling og kvindedreven innovation. Vores passion for innovation afspejles i vores multimediedesignprojekter, hvor vi konstant stræber efter at tænke ud af boksen. Selvom udfordringer som smag og branche-nybegyndere eksisterer, ser vi dem som muligheder for læring og forbedring, og det driver os til at fortsætte vores rejse mod succes.</p>
+
+    <a href="https://ibb.co/3yz0BF4"><img id="tredblomst" src="https://i.ibb.co/Kjw9Fsb/Flowers-different-colours-02.png" alt="blå 3D blomst"></a>
+
+    <h2>Vores mål</h2>
+    <p>Vores mål er at inspirere og styrke kvinder til at forfølge deres iværksætterdrømme gennem specialiserede designløsninger. Vi ønsker at skabe et fællesskab, hvor kvindelige designere kan blomstre og finde muligheder i mediebranchen. Ved at tilbyde unikke, personlige brands og støtte kvindedrevne organisationer, stræber vi efter at skabe en positiv indvirkning. Blossom sigter mod at være mere end et designbureau; vi er et kraftcenter for innovation og kvindelig empowerment, hvor design ikke kun handler om æstetik, men også om at skabe veje til karriereløft og selvstændighed.</p>
+
+    <a href="https://imgbb.com/"><img id="tredtext" src="https://i.ibb.co/n6kVQ4z/Poster-2.png" alt="blossom 3d tekst"></a>
+    <p>Et avantgarde multimediedesignbureau drevet af kvinder, specialiseret i at skabe stærke brandidentiteter og visuelt indhold. Med et unikt feminint udtryk integrerer vi 3D-elementer i vores designs og animatoriske kreationer. Udover at levere topkvalitetsprodukter er vi en kraftfuld katalysator for empowerment, tilbyder mentorskab og støtter kvindeorganisationer. Vi stræber efter at omdefinere fortællinger gennem vores visuelle kunst og fejre kvinders styrke.</p>
+
+    <h3>Partners</h3>
+     <img id="partners" src="partners.png" alt="partners">
+    </section>
+
+</body>
+
+<footer>
+    <img class="pic1" src="mymediafotos/Blossom-tech-font 2.png" alt="#">
+    <section class="links">
+       
+    <p class="bold"> Brug for hjælp?<br></p>
+    <p><br>Skriv til <a class="afooter" href="blossomsupport@gmail.com">bloomsupport@gmail.com</a></p><br>
+    <p> Bliv en del af fællesskabet hos Blossom og tag det første skridt mod en succesfuld karriere inden for webdesign. <br><br>Tilmeld dig vores kurser, forbind dig med vores netværk og udfold dit fulde potentiale i dag.</p>
+    </section>
+    <br>
+    <section class="links">
+    <p class="bold">Genveje</p>
+    <br>
+    <li><a class="afooter" href="#mediedesign">Få hjælp til medie design</a></li>
+    <li><a class="afooter" href="#kursus">Kursus</a></li>
+    <li><a class="afooter" href="#netværk">Bliv del af et kvinde netværk</a></li>
+    <li><a class="afooter" href="#kontakt">Bliv kontaktet</a></li>
+    <li><a class="afooter" href="Hvem er vi">Cases</a></li>
+    <li><a class="afooter" href="">Vores mål</a></li>
+    <li><a class="afooter" href="#"></a></li>
+    </section>
+
+    </footer>
+
+</html>
