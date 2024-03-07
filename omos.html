@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>om os</title>
     <script src="https://kit.fontawesome.com/cb55c9637a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <header> 
@@ -20,7 +20,7 @@
             <li><a href="login.html">Om os</a></li>
         </ul>
         
-        <a href="#" class="action-btn">Les mere</a>
+        <a href="#" class="action-btn">Læs mere</a>
         <div class="toggle_btn">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -34,6 +34,21 @@
         <li><a href="login.html">Om os</a></li>
         <li><a href="#" class="action-btn">Læs mere</a>
     </div>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+        
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
 
 </header>
 
@@ -59,11 +74,32 @@
     <p>Et avantgarde multimediedesignbureau drevet af kvinder, specialiseret i at skabe stærke brandidentiteter og visuelt indhold. Med et unikt feminint udtryk integrerer vi 3D-elementer i vores designs og animatoriske kreationer. Udover at levere topkvalitetsprodukter er vi en kraftfuld katalysator for empowerment, tilbyder mentorskab og støtter kvindeorganisationer. Vi stræber efter at omdefinere fortællinger gennem vores visuelle kunst og fejre kvinders styrke.</p>
 
     <h3>Partners</h3>
-     <img id="partners" src="billeder/partners.png" alt="partners">
+     <img id="partners" src="partners.png" alt="partners">
     </section>
 
 </body>
-<footer>
 
-</footer>
+<footer>
+    <img class="pic1" src="mymediafotos/Blossom-tech-font 2.png" alt="#">
+    <section class="links">
+       
+    <p class="bold"> Brug for hjælp?<br></p>
+    <p><br>Skriv til <a class="afooter" href="blossomsupport@gmail.com">bloomsupport@gmail.com</a></p><br>
+    <p> Bliv en del af fællesskabet hos Blossom og tag det første skridt mod en succesfuld karriere inden for webdesign. <br><br>Tilmeld dig vores kurser, forbind dig med vores netværk og udfold dit fulde potentiale i dag.</p>
+    </section>
+    <br>
+    <section class="links">
+    <p class="bold">Genveje</p>
+    <br>
+    <li><a class="afooter" href="#mediedesign">Få hjælp til medie design</a></li>
+    <li><a class="afooter" href="#kursus">Kursus</a></li>
+    <li><a class="afooter" href="#netværk">Bliv del af et kvinde netværk</a></li>
+    <li><a class="afooter" href="#kontakt">Bliv kontaktet</a></li>
+    <li><a class="afooter" href="Hvem er vi">Cases</a></li>
+    <li><a class="afooter" href="">Vores mål</a></li>
+    <li><a class="afooter" href="#"></a></li>
+    </section>
+
+    </footer>
+
 </html>
