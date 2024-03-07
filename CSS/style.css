@@ -258,43 +258,49 @@ footer {
   .dropdown_menu {
     display: block;
   }
-  /*main*/
-  h3 {
-    font-size: 16px;
-  }
-  .infografik {
-    height: 100vh;
-    background-size: cover;
-    height: 110vh;
-  }
-  .tekst :nth-child(1) {
-    padding-left: 12vw;
-    padding-top: 20vh;
-    max-width: 27vw;
-  }
-  .tekst :nth-child(2) {
-    padding-left: 65vw;
-    padding-top: 20vh;
-    max-width: 27vw;
-  }
-  .tekst :nth-child(3) {
-    padding-left: 10vw;
-    padding-top: 15vh;
-    max-width: 27vw;
-  }
-  /*Section3*/
-  .wave-2 {
-    max-height: 87vh;
-  }
-  .cases img {
-    width: 20%;
-    height: auto;
-    margin: 1rem;
-  }
-  .container-cases h2 {
-    margin-left: 14vw;
-  }
 }
+/*main*/
+h3 {
+  font-size: 16px;
+}
+
+.infografik {
+  height: 100vh;
+  background-size: cover;
+  height: 110vh;
+}
+
+.tekst :nth-child(1) {
+  padding-left: 12vw;
+  padding-top: 20vh;
+  max-width: 27vw;
+}
+.tekst :nth-child(2) {
+  padding-left: 65vw;
+  padding-top: 20vh;
+  max-width: 27vw;
+}
+.tekst :nth-child(3) {
+  padding-left: 10vw;
+  padding-top: 15vh;
+  max-width: 27vw;
+}
+
+/*Section3*/
+.wave-2 {
+  max-height: 87vh;
+}
+
+.cases img {
+  width: 20%;
+  height: auto;
+  margin: 1rem;
+}
+
+.container-cases h2 {
+  margin-left: 14vw;
+}
+
 @media (max-width: 576px) {
   .dropdown_menu {
     left: 2rem;
@@ -350,4 +356,6 @@ footer {
 #partners {
   max-width: 100%;
   margin: -20px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*OM OS*//*# sourceMappingURL=style.css.map */

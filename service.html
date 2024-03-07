@@ -6,13 +6,39 @@
     <meta name="description"
         content="Blossom - Bliv en del af et kvinde netværk, deltag i vores webudviklings kurser, og lær om branding, markedføring og medie design">
     <title>Skab et netværk, og lærer multi medie design med vores kurser</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="servicestyle.css">
     <link rel="stylesheet" href="https://use.typekit.net/sdb2ovw.css">
     <link rel="stylesheet" href="https://use.typekit.net/sdb2ovw.css">
 
 </head>
 
 <body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html"><img src="billeder/blossom..png"></a></div>
+            <ul class="links">
+                <li><a href="om.html">Produkter</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="galleri.html">Kursus</a></li>
+                <li><a href="login.html">Kontakt</a></li>
+                <li><a href="omos.html">Om os</a></li>
+            </ul>
+            <a href="#" class="action-btn">Læs mere</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu open">
+            <li><a href="om.html">Produkter</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="galleri.html">Kursus</a></li>
+            <li><a href="login.html">Kontakt</a></li>
+            <li><a href="omos.html">Om os</a></li>
+            <li><a href="#" class="action-btn">Læs mere</a>
+        </div>
+   </header> 
+
     <section class="heroservice">
         <img>
     </section>
@@ -145,7 +171,20 @@
         </section>
 
     </footer>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
 
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+        
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 
 </html>
