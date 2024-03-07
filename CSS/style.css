@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*FORSIDE START*/
 /*General styling*/
 /*Main*/
@@ -303,4 +304,50 @@ footer {
     max-height: 45vh;
   }
 }
-/*FORSIDE-END*//*# sourceMappingURL=style.css.map */
+/*FORSIDE-END*/
+/*OM OS*/
+#omostred {
+  width: 100%;
+  height: auto;
+  margin-top: -125px;
+  margin-bottom: -100px;
+}
+
+#portrætter {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#portrætter img {
+  max-width: 80%;
+  margin-top: -20px;
+  padding: 20px;
+}
+
+#omosbody {
+  padding: 50px;
+  text-align: center;
+}
+
+#omosbody p {
+  margin-top: -20px;
+}
+
+#tredblomst {
+  max-width: 150px;
+  float: right;
+  margin: -20px;
+  padding: 20px;
+}
+
+#tredtext {
+  max-width: 350px;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+#partners {
+  max-width: 100%;
+  margin: -20px;
+}/*# sourceMappingURL=style.css.map */
